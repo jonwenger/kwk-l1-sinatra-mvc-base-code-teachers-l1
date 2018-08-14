@@ -7,4 +7,9 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
+get '/IHopeThisWorks' do
+  erb :page2
+end 
+
+
 end
